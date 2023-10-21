@@ -1,0 +1,714 @@
+HARASSED BOOKING CLERK SIMULATION (JAVA)
+
+
+Inside method schedule
+Commit entity..: First Personal Customer	ID..: 1
+
+Inside method schedule
+Commit entity..: First Phone Enquirer	ID..: 2
+name....: The Observer:Entity ID..:3, next B Event: null, Time Cell..: 0, Available? true 
+
+Inside method schedule
+Commit entity..: The Observer	ID..: 3
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 10, Available? false 
+Begin Service
+Begin Talking
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :3
+name....: First Personal Customer:Entity ID..:1, next B Event: Arrive.toString(), Time Cell..: 8, Available? false 
+name....: First Phone Enquirer:Entity ID..:2, next B Event: Call.toString(), Time Cell..: 10, Available? false 
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 10, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 8
+###############################################################################################################
+Showing queue ..
+name....: First Personal Customer:Entity ID..:1, next B Event: Arrive.toString(), Time Cell..: 8, Previous time cell...:8Available? true Total time for which the entity has been committed thus far8
+number of entities created so far3
+ toString() superclasse + PersonalCustomer.ToString
+PersCust 1 arrives at 8
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 4
+name....: PersCust:Entity ID..:4, next B Event: Arrive.toString(), Time Cell..: 9, Available? false 
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: First Personal Customer	ID..: 1
+Service 1 starts at 8 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: First Personal Customer:Entity ID..:1, next B Event: End serve toString(), Time Cell..: 8, Available? false 
+name....: First Phone Enquirer:Entity ID..:2, next B Event: Call.toString(), Time Cell..: 10, Available? false 
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 10, Available? false 
+name....: PersCust:Entity ID..:4, next B Event: Arrive.toString(), Time Cell..: 9, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 8
+###############################################################################################################
+PersCust 2 leaves at 8
+clerks has 1, releasing 2
+Added to ToBeKilled
+name....: First Personal Customer:Entity ID..:1, next B Event: End serve toString(), Time Cell..: 8, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: First Personal Customer:Entity ID..:1, next B Event: End serve toString(), Time Cell..: 8, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :3
+name....: First Phone Enquirer:Entity ID..:2, next B Event: Call.toString(), Time Cell..: 10, Available? false 
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 10, Available? false 
+name....: PersCust:Entity ID..:4, next B Event: Arrive.toString(), Time Cell..: 9, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 9
+###############################################################################################################
+Showing queue ..
+name....: PersCust:Entity ID..:4, next B Event: Arrive.toString(), Time Cell..: 9, Previous time cell...:9Available? true Total time for which the entity has been committed thus far9
+number of entities created so far4
+ toString() superclasse + PersonalCustomer.ToString
+PersCust 2 arrives at 9
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 5
+name....: PersCust:Entity ID..:5, next B Event: Arrive.toString(), Time Cell..: 10, Available? false 
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 4
+Service 2 starts at 9 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: First Phone Enquirer:Entity ID..:2, next B Event: Call.toString(), Time Cell..: 10, Available? false 
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 10, Available? false 
+name....: PersCust:Entity ID..:4, next B Event: End serve toString(), Time Cell..: 9, Available? false 
+name....: PersCust:Entity ID..:5, next B Event: Arrive.toString(), Time Cell..: 10, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 9
+###############################################################################################################
+PersCust 3 leaves at 9
+clerks has 1, releasing 2
+Added to ToBeKilled
+name....: PersCust:Entity ID..:4, next B Event: End serve toString(), Time Cell..: 9, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PersCust:Entity ID..:4, next B Event: End serve toString(), Time Cell..: 9, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :3
+name....: First Phone Enquirer:Entity ID..:2, next B Event: Call.toString(), Time Cell..: 10, Available? false 
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 10, Available? false 
+name....: PersCust:Entity ID..:5, next B Event: Arrive.toString(), Time Cell..: 10, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 10
+###############################################################################################################
+PhoneEnq 1 arrives at 10
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 6
+
+Inside method schedule
+Commit entity..: The Observer	ID..: 3
+Observing queue lengths, interval is 10
+Showing queue ..
+name....: PersCust:Entity ID..:5, next B Event: Arrive.toString(), Time Cell..: 10, Previous time cell...:10Available? true Total time for which the entity has been committed thus far10
+number of entities created so far6
+ toString() superclasse + PersonalCustomer.ToString
+PersCust 3 arrives at 10
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 7
+name....: PersCust:Entity ID..:7, next B Event: Arrive.toString(), Time Cell..: 13, Available? false 
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 5
+Service 3 starts at 10 clerks free: 2
+
+Inside method schedule
+Commit entity..: First Phone Enquirer	ID..: 2
+Conversation 1 starts at 10 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :5
+name....: First Phone Enquirer:Entity ID..:2, next B Event: End Talk, Time Cell..: 10, Available? false 
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 20, Available? false 
+name....: PersCust:Entity ID..:5, next B Event: End serve toString(), Time Cell..: 10, Available? false 
+name....: PhoneEnq:Entity ID..:6, next B Event: Call.toString(), Time Cell..: 14, Available? false 
+name....: PersCust:Entity ID..:7, next B Event: Arrive.toString(), Time Cell..: 13, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 10
+###############################################################################################################
+PhoneEnq 2 leaves at 10
+clerks has 0, releasing 2
+Added to ToBeKilled
+name....: First Phone Enquirer:Entity ID..:2, next B Event: End Talk, Time Cell..: 10, Available? true 
+PersCust 4 leaves at 10
+clerks has 1, releasing 2
+Added to ToBeKilled
+name....: PersCust:Entity ID..:5, next B Event: End serve toString(), Time Cell..: 10, Available? true 
+name....: PersCust:Entity ID..:5, next B Event: End serve toString(), Time Cell..: 10, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: First Phone Enquirer:Entity ID..:2, next B Event: End Talk, Time Cell..: 10, Available? true 
+Trying to remove .. name....: PersCust:Entity ID..:5, next B Event: End serve toString(), Time Cell..: 10, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :3
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 20, Available? false 
+name....: PhoneEnq:Entity ID..:6, next B Event: Call.toString(), Time Cell..: 14, Available? false 
+name....: PersCust:Entity ID..:7, next B Event: Arrive.toString(), Time Cell..: 13, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 13
+###############################################################################################################
+Showing queue ..
+name....: PersCust:Entity ID..:7, next B Event: Arrive.toString(), Time Cell..: 13, Previous time cell...:13Available? true Total time for which the entity has been committed thus far13
+number of entities created so far7
+ toString() superclasse + PersonalCustomer.ToString
+PersCust 4 arrives at 13
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 8
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 7
+Service 4 starts at 13 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 20, Available? false 
+name....: PhoneEnq:Entity ID..:6, next B Event: Call.toString(), Time Cell..: 14, Available? false 
+name....: PersCust:Entity ID..:7, next B Event: End serve toString(), Time Cell..: 13, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 13
+###############################################################################################################
+PersCust 5 leaves at 13
+clerks has 1, releasing 2
+Added to ToBeKilled
+name....: PersCust:Entity ID..:7, next B Event: End serve toString(), Time Cell..: 13, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PersCust:Entity ID..:7, next B Event: End serve toString(), Time Cell..: 13, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :3
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 20, Available? false 
+name....: PhoneEnq:Entity ID..:6, next B Event: Call.toString(), Time Cell..: 14, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 14
+###############################################################################################################
+PhoneEnq 2 arrives at 14
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 9
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 6
+Conversation 2 starts at 14 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 20, Available? false 
+name....: PhoneEnq:Entity ID..:6, next B Event: End Talk, Time Cell..: 27, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+name....: PhoneEnq:Entity ID..:9, next B Event: Call.toString(), Time Cell..: 14, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 14
+###############################################################################################################
+PhoneEnq 3 arrives at 14
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 10
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 9
+Conversation 3 starts at 14 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :5
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 20, Available? false 
+name....: PhoneEnq:Entity ID..:6, next B Event: End Talk, Time Cell..: 27, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+name....: PhoneEnq:Entity ID..:9, next B Event: End Talk, Time Cell..: 19, Available? false 
+name....: PhoneEnq:Entity ID..:10, next B Event: Call.toString(), Time Cell..: 15, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 15
+###############################################################################################################
+PhoneEnq 4 arrives at 15
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 11
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :6
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 20, Available? false 
+name....: PhoneEnq:Entity ID..:6, next B Event: End Talk, Time Cell..: 27, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+name....: PhoneEnq:Entity ID..:9, next B Event: End Talk, Time Cell..: 19, Available? false 
+name....: PhoneEnq:Entity ID..:10, next B Event: Call.toString(), Time Cell..: 15, Available? true 
+name....: PhoneEnq:Entity ID..:11, next B Event: Call.toString(), Time Cell..: 22, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 19
+###############################################################################################################
+PhoneEnq 4 leaves at 19
+clerks has 0, releasing 2
+Added to ToBeKilled
+name....: PhoneEnq:Entity ID..:9, next B Event: End Talk, Time Cell..: 19, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 10
+Conversation 4 starts at 19 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PhoneEnq:Entity ID..:9, next B Event: End Talk, Time Cell..: 19, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :5
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 20, Available? false 
+name....: PhoneEnq:Entity ID..:6, next B Event: End Talk, Time Cell..: 27, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+name....: PhoneEnq:Entity ID..:10, next B Event: End Talk, Time Cell..: 22, Available? false 
+name....: PhoneEnq:Entity ID..:11, next B Event: Call.toString(), Time Cell..: 22, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 20
+###############################################################################################################
+
+Inside method schedule
+Commit entity..: The Observer	ID..: 3
+Observing queue lengths, interval is 10
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :5
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 30, Available? false 
+name....: PhoneEnq:Entity ID..:6, next B Event: End Talk, Time Cell..: 27, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+name....: PhoneEnq:Entity ID..:10, next B Event: End Talk, Time Cell..: 22, Available? false 
+name....: PhoneEnq:Entity ID..:11, next B Event: Call.toString(), Time Cell..: 22, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 22
+###############################################################################################################
+PhoneEnq 5 leaves at 22
+clerks has 0, releasing 2
+Added to ToBeKilled
+name....: PhoneEnq:Entity ID..:10, next B Event: End Talk, Time Cell..: 22, Available? true 
+PhoneEnq 5 arrives at 22
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 12
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 11
+Conversation 5 starts at 22 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PhoneEnq:Entity ID..:10, next B Event: End Talk, Time Cell..: 22, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :5
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 30, Available? false 
+name....: PhoneEnq:Entity ID..:6, next B Event: End Talk, Time Cell..: 27, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+name....: PhoneEnq:Entity ID..:11, next B Event: End Talk, Time Cell..: 32, Available? false 
+name....: PhoneEnq:Entity ID..:12, next B Event: Call.toString(), Time Cell..: 32, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 27
+###############################################################################################################
+PhoneEnq 3 leaves at 27
+clerks has 0, releasing 2
+Added to ToBeKilled
+name....: PhoneEnq:Entity ID..:6, next B Event: End Talk, Time Cell..: 27, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PhoneEnq:Entity ID..:6, next B Event: End Talk, Time Cell..: 27, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 30, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+name....: PhoneEnq:Entity ID..:11, next B Event: End Talk, Time Cell..: 32, Available? false 
+name....: PhoneEnq:Entity ID..:12, next B Event: Call.toString(), Time Cell..: 32, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 30
+###############################################################################################################
+
+Inside method schedule
+Commit entity..: The Observer	ID..: 3
+Observing queue lengths, interval is 10
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 40, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+name....: PhoneEnq:Entity ID..:11, next B Event: End Talk, Time Cell..: 32, Available? false 
+name....: PhoneEnq:Entity ID..:12, next B Event: Call.toString(), Time Cell..: 32, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 32
+###############################################################################################################
+PhoneEnq 6 leaves at 32
+clerks has 1, releasing 2
+Added to ToBeKilled
+name....: PhoneEnq:Entity ID..:11, next B Event: End Talk, Time Cell..: 32, Available? true 
+PhoneEnq 6 arrives at 32
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 13
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 12
+Conversation 6 starts at 32 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PhoneEnq:Entity ID..:11, next B Event: End Talk, Time Cell..: 32, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 40, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+name....: PhoneEnq:Entity ID..:12, next B Event: End Talk, Time Cell..: 32, Available? false 
+name....: PhoneEnq:Entity ID..:13, next B Event: Call.toString(), Time Cell..: 47, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 32
+###############################################################################################################
+PhoneEnq 7 leaves at 32
+clerks has 1, releasing 2
+Added to ToBeKilled
+name....: PhoneEnq:Entity ID..:12, next B Event: End Talk, Time Cell..: 32, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PhoneEnq:Entity ID..:12, next B Event: End Talk, Time Cell..: 32, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :3
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 40, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Available? false 
+name....: PhoneEnq:Entity ID..:13, next B Event: Call.toString(), Time Cell..: 47, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 36
+###############################################################################################################
+Showing queue ..
+name....: PersCust:Entity ID..:8, next B Event: Arrive.toString(), Time Cell..: 36, Previous time cell...:36Available? true Total time for which the entity has been committed thus far36
+number of entities created so far13
+ toString() superclasse + PersonalCustomer.ToString
+PersCust 5 arrives at 36
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 14
+name....: PersCust:Entity ID..:14, next B Event: Arrive.toString(), Time Cell..: 49, Available? false 
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 8
+Service 5 starts at 36 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 40, Available? false 
+name....: PersCust:Entity ID..:8, next B Event: End serve toString(), Time Cell..: 36, Available? false 
+name....: PhoneEnq:Entity ID..:13, next B Event: Call.toString(), Time Cell..: 47, Available? false 
+name....: PersCust:Entity ID..:14, next B Event: Arrive.toString(), Time Cell..: 49, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 36
+###############################################################################################################
+PersCust 6 leaves at 36
+clerks has 1, releasing 2
+Added to ToBeKilled
+name....: PersCust:Entity ID..:8, next B Event: End serve toString(), Time Cell..: 36, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PersCust:Entity ID..:8, next B Event: End serve toString(), Time Cell..: 36, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :3
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 40, Available? false 
+name....: PhoneEnq:Entity ID..:13, next B Event: Call.toString(), Time Cell..: 47, Available? false 
+name....: PersCust:Entity ID..:14, next B Event: Arrive.toString(), Time Cell..: 49, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 40
+###############################################################################################################
+
+Inside method schedule
+Commit entity..: The Observer	ID..: 3
+Observing queue lengths, interval is 10
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :3
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 50, Available? false 
+name....: PhoneEnq:Entity ID..:13, next B Event: Call.toString(), Time Cell..: 47, Available? false 
+name....: PersCust:Entity ID..:14, next B Event: Arrive.toString(), Time Cell..: 49, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 47
+###############################################################################################################
+PhoneEnq 7 arrives at 47
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 15
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 13
+Conversation 7 starts at 47 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 50, Available? false 
+name....: PhoneEnq:Entity ID..:13, next B Event: End Talk, Time Cell..: 51, Available? false 
+name....: PersCust:Entity ID..:14, next B Event: Arrive.toString(), Time Cell..: 49, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: Call.toString(), Time Cell..: 57, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 49
+###############################################################################################################
+Showing queue ..
+name....: PersCust:Entity ID..:14, next B Event: Arrive.toString(), Time Cell..: 49, Previous time cell...:49Available? true Total time for which the entity has been committed thus far49
+number of entities created so far15
+ toString() superclasse + PersonalCustomer.ToString
+PersCust 6 arrives at 49
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 16
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? false 
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 14
+Service 6 starts at 49 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :5
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 50, Available? false 
+name....: PhoneEnq:Entity ID..:13, next B Event: End Talk, Time Cell..: 51, Available? false 
+name....: PersCust:Entity ID..:14, next B Event: End serve toString(), Time Cell..: 49, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: Call.toString(), Time Cell..: 57, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 49
+###############################################################################################################
+PersCust 7 leaves at 49
+clerks has 0, releasing 2
+Added to ToBeKilled
+name....: PersCust:Entity ID..:14, next B Event: End serve toString(), Time Cell..: 49, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PersCust:Entity ID..:14, next B Event: End serve toString(), Time Cell..: 49, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 50, Available? false 
+name....: PhoneEnq:Entity ID..:13, next B Event: End Talk, Time Cell..: 51, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: Call.toString(), Time Cell..: 57, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 50
+###############################################################################################################
+
+Inside method schedule
+Commit entity..: The Observer	ID..: 3
+Observing queue lengths, interval is 10
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 60, Available? false 
+name....: PhoneEnq:Entity ID..:13, next B Event: End Talk, Time Cell..: 51, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: Call.toString(), Time Cell..: 57, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 51
+###############################################################################################################
+PhoneEnq 8 leaves at 51
+clerks has 1, releasing 2
+Added to ToBeKilled
+name....: PhoneEnq:Entity ID..:13, next B Event: End Talk, Time Cell..: 51, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PhoneEnq:Entity ID..:13, next B Event: End Talk, Time Cell..: 51, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :3
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 60, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: Call.toString(), Time Cell..: 57, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 57
+###############################################################################################################
+PhoneEnq 8 arrives at 57
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 17
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 15
+Conversation 8 starts at 57 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 60, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: End Talk, Time Cell..: 74, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? false 
+name....: PhoneEnq:Entity ID..:17, next B Event: Call.toString(), Time Cell..: 61, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 60
+###############################################################################################################
+
+Inside method schedule
+Commit entity..: The Observer	ID..: 3
+Observing queue lengths, interval is 10
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 70, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: End Talk, Time Cell..: 74, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? false 
+name....: PhoneEnq:Entity ID..:17, next B Event: Call.toString(), Time Cell..: 61, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 61
+###############################################################################################################
+PhoneEnq 9 arrives at 61
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 18
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 17
+Conversation 9 starts at 61 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :5
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 70, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: End Talk, Time Cell..: 74, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? false 
+name....: PhoneEnq:Entity ID..:17, next B Event: End Talk, Time Cell..: 66, Available? false 
+name....: PhoneEnq:Entity ID..:18, next B Event: Call.toString(), Time Cell..: 61, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 61
+###############################################################################################################
+PhoneEnq 10 arrives at 61
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 19
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :6
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 70, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: End Talk, Time Cell..: 74, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? false 
+name....: PhoneEnq:Entity ID..:17, next B Event: End Talk, Time Cell..: 66, Available? false 
+name....: PhoneEnq:Entity ID..:18, next B Event: Call.toString(), Time Cell..: 61, Available? true 
+name....: PhoneEnq:Entity ID..:19, next B Event: Call.toString(), Time Cell..: 102, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 66
+###############################################################################################################
+PhoneEnq 10 leaves at 66
+clerks has 0, releasing 2
+Added to ToBeKilled
+name....: PhoneEnq:Entity ID..:17, next B Event: End Talk, Time Cell..: 66, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PhoneEnq	ID..: 18
+Conversation 10 starts at 66 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PhoneEnq:Entity ID..:17, next B Event: End Talk, Time Cell..: 66, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :5
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 70, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: End Talk, Time Cell..: 74, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? false 
+name....: PhoneEnq:Entity ID..:18, next B Event: End Talk, Time Cell..: 76, Available? false 
+name....: PhoneEnq:Entity ID..:19, next B Event: Call.toString(), Time Cell..: 102, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 68
+###############################################################################################################
+Showing queue ..
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Previous time cell...:68Available? true Total time for which the entity has been committed thus far68
+number of entities created so far19
+ toString() superclasse + PersonalCustomer.ToString
+PersCust 7 arrives at 68
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 20
+name....: PersCust:Entity ID..:20, next B Event: Arrive.toString(), Time Cell..: 81, Available? false 
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :6
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 70, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: End Talk, Time Cell..: 74, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? true 
+name....: PhoneEnq:Entity ID..:18, next B Event: End Talk, Time Cell..: 76, Available? false 
+name....: PhoneEnq:Entity ID..:19, next B Event: Call.toString(), Time Cell..: 102, Available? false 
+name....: PersCust:Entity ID..:20, next B Event: Arrive.toString(), Time Cell..: 81, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 70
+###############################################################################################################
+
+Inside method schedule
+Commit entity..: The Observer	ID..: 3
+Observing queue lengths, interval is 10
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :6
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 80, Available? false 
+name....: PhoneEnq:Entity ID..:15, next B Event: End Talk, Time Cell..: 74, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: Arrive.toString(), Time Cell..: 68, Available? true 
+name....: PhoneEnq:Entity ID..:18, next B Event: End Talk, Time Cell..: 76, Available? false 
+name....: PhoneEnq:Entity ID..:19, next B Event: Call.toString(), Time Cell..: 102, Available? false 
+name....: PersCust:Entity ID..:20, next B Event: Arrive.toString(), Time Cell..: 81, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 74
+###############################################################################################################
+PhoneEnq 9 leaves at 74
+clerks has 0, releasing 2
+Added to ToBeKilled
+name....: PhoneEnq:Entity ID..:15, next B Event: End Talk, Time Cell..: 74, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 16
+Service 7 starts at 74 clerks free: 2
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PhoneEnq:Entity ID..:15, next B Event: End Talk, Time Cell..: 74, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :5
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 80, Available? false 
+name....: PersCust:Entity ID..:16, next B Event: End serve toString(), Time Cell..: 74, Available? false 
+name....: PhoneEnq:Entity ID..:18, next B Event: End Talk, Time Cell..: 76, Available? false 
+name....: PhoneEnq:Entity ID..:19, next B Event: Call.toString(), Time Cell..: 102, Available? false 
+name....: PersCust:Entity ID..:20, next B Event: Arrive.toString(), Time Cell..: 81, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 74
+###############################################################################################################
+PersCust 8 leaves at 74
+clerks has 0, releasing 2
+Added to ToBeKilled
+name....: PersCust:Entity ID..:16, next B Event: End serve toString(), Time Cell..: 74, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PersCust:Entity ID..:16, next B Event: End serve toString(), Time Cell..: 74, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :4
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 80, Available? false 
+name....: PhoneEnq:Entity ID..:18, next B Event: End Talk, Time Cell..: 76, Available? false 
+name....: PhoneEnq:Entity ID..:19, next B Event: Call.toString(), Time Cell..: 102, Available? false 
+name....: PersCust:Entity ID..:20, next B Event: Arrive.toString(), Time Cell..: 81, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 76
+###############################################################################################################
+PhoneEnq 11 leaves at 76
+clerks has 1, releasing 2
+Added to ToBeKilled
+name....: PhoneEnq:Entity ID..:18, next B Event: End Talk, Time Cell..: 76, Available? true 
+IN C PHASE. The size of the list of events type C is: 2
+Trying to remove .. name....: PhoneEnq:Entity ID..:18, next B Event: End Talk, Time Cell..: 76, Available? true 
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :3
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 80, Available? false 
+name....: PhoneEnq:Entity ID..:19, next B Event: Call.toString(), Time Cell..: 102, Available? false 
+name....: PersCust:Entity ID..:20, next B Event: Arrive.toString(), Time Cell..: 81, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 80
+###############################################################################################################
+
+Inside method schedule
+Commit entity..: The Observer	ID..: 3
+Observing queue lengths, interval is 10
+IN C PHASE. The size of the list of events type C is: 2
+
+ Inside method writesEntitiesInUseListToTraceFile. The size of the list Entities is :3
+name....: The Observer:Entity ID..:3, next B Event: Observe.toString(), Time Cell..: 90, Available? false 
+name....: PhoneEnq:Entity ID..:19, next B Event: Call.toString(), Time Cell..: 102, Available? false 
+name....: PersCust:Entity ID..:20, next B Event: Arrive.toString(), Time Cell..: 81, Available? false 
+
+ A-PHASE COMPLETE, current clock time = 81
+###############################################################################################################
+Showing queue ..
+name....: PersCust:Entity ID..:20, next B Event: Arrive.toString(), Time Cell..: 81, Previous time cell...:81Available? true Total time for which the entity has been committed thus far81
+number of entities created so far20
+ toString() superclasse + PersonalCustomer.ToString
+PersCust 8 arrives at 81
+
+Inside method schedule
+Commit entity..: PersCust	ID..: 21
+name....: PersCust:Entity ID..:21, 
